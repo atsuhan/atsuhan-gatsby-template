@@ -14,7 +14,6 @@ const siteMetadata = {
   social: {
     twitter: `https://twitter.com/a_hancho`,
     github: `https://github.com/atsuhan`,
-    qiita: `https://qiita.com/atsuhan`,
   },
 };
 

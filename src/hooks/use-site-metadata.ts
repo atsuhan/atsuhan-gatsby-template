@@ -14,7 +14,6 @@ type Props = DeepReadonly<{
       social: {
         twitter: string;
         github: string;
-        qiita: string;
       };
     };
   }>;
@@ -38,7 +37,6 @@ export default () => {
           social {
             twitter
             github
-            qiita
           }
         }
       }

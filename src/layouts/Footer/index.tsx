@@ -2,9 +2,7 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 
-const Component: React.FCX = ({ className }) => (
-  <footer className={className}>Copyright © 2020 hppRC All Rights Reserved.</footer>
-);
+const Component: React.FCX = ({ className }) => <footer className={className}>Footer text</footer>;
 
 const StyledComponent = styled(Component)`
   display: flex;

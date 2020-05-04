@@ -1,20 +1,20 @@
-const siteTitle = `Gatsby Starter hpp`;
-const siteUrl = `https://gatsby-starter-hpp.netlify.com`;
-const siteDescription = `simple gatsby starter with mdx, typescript, pwa`;
+const siteTitle = `atsuhan-gatsby-template`;
+const siteUrl = `https://atsuhan.work`;
+const siteDescription = `My projects`;
 
 const siteMetadata = {
   siteTitle,
-  siteTitleAlt: `Gatsby Starter hpp - @hppRC/gatsby-starter-hpp`,
-  siteHeadline: `Gatsby Starter hpp - Gatsby Starter from @hppRC`,
+  siteTitleAlt: `atsuhan-gatsby-template`,
+  siteHeadline: `atsuhan-gatsby-template`,
   siteUrl,
   siteDescription,
   siteLanguage: `en`,
-  author: `@hpp_ricecake`, // twitter account id
+  author: `@a_hancho`, // twitter account id
   basePath: `/`,
   social: {
-    twitter: `https://twitter.com/hpp_ricecake`,
-    github: `https://github.com/hppRC`,
-    qiita: `https://qiita.com/hppRC`,
+    twitter: `https://twitter.com/a_hancho`,
+    github: `https://github.com/atsuhan`,
+    qiita: `https://qiita.com/atsuhan`,
   },
 };
 
@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `assets`,
-        path: `assets`,
+        name: `static`,
+        path: `static`,
       },
     },
     {
@@ -53,8 +53,8 @@ module.exports = {
         siteTitle,
         siteUrl,
         siteDescription,
-        iconPath: `./assets/icon.png`,
-        googleAnalyticsTrackingId: `UA-149661454-1`,
+        iconPath: `./static/icon.jpg`,
+        googleAnalyticsTrackingId: ``,
       },
     },
   ],

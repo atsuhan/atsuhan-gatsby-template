@@ -1,8 +1,6 @@
-# gatsby-starter-hpp
+# atsuhan-gatsby-template
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bbee222e-f232-452e-b6ba-d58f6c1af937/deploy-status)](https://app.netlify.com/sites/gatsby-starter-hpp/deploys)
-
-simplest gatsby skelton.
+My template using Gatsby, react, typescript.
 
 ## Recomendation
 
@@ -24,3 +22,9 @@ $ yarn
 ```
 $ yarn start
 ```
+
+## Base template
+
+This template was created based on the following repository. I really appreciate it.
+
+[hppRC/gatsby-starter-hpp](https://github.com/hppRC/gatsby-starter-hpp)

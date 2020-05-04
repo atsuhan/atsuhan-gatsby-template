@@ -46,11 +46,11 @@ type JsonLdConfigProps = DeepReadonly<
       };
     };
     image:
-      | {
-          '@type': string;
-          url: string;
-        }
-      | string;
+    | {
+      '@type': string;
+      url: string;
+    }
+    | string;
     itemListElement: [
       {
         '@type': string;
@@ -76,7 +76,7 @@ const SEO: React.FCX<Props> = ({ title = ``, description = ``, pathname = ``, im
   const metadata = useSiteMetadata() || {};
   const buildTime = useSiteBuildTime();
   const icon = useAnyImage(`icon.png`);
-  const banner = useAnyImage(`banner.png`);
+  const banner = useAnyImage(`Lena.png`);
 
   const {
     siteTitle,

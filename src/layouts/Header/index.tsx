@@ -7,7 +7,7 @@ import ModeButton from './mode-button';
 
 const Component: React.FCX = ({ className }) => (
   <header className={className}>
-    <h1>Gatsby starter hpp</h1>
+    <h1>atsuhan gatsby template</h1>
     <nav>
       <ul>
         <li>
@@ -21,6 +21,9 @@ const Component: React.FCX = ({ className }) => (
         </li>
         <li>
           <Link to='/404'>404</Link>
+        </li>
+        <li>
+          <Link to='/mock'>mock</Link>
         </li>
         <li>
           <ModeButton />
